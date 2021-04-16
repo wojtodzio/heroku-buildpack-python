@@ -5,7 +5,7 @@ runtime-fixer runtime.txt
 PYTHON_VERSION=$(cat runtime.txt)
 
 # The location of the pre-compiled python binary.
-VENDORED_PYTHON="https://github.com/wojtodzio/heroku-buildpack-python/raw/main/python-3.9.4.tar.gz"
+VENDORED_PYTHON="https://heroku-python-shared.s3-eu-west-1.amazonaws.com/python-3.9.4.tar.gz"
 
 SECURITY_UPDATE="Python has released a security update! Please consider upgrading to"
 SECURITY_UPDATE_PYPY="The PyPy project has released a security update! Please consider upgrading to"
