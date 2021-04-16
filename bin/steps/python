@@ -121,7 +121,7 @@ else
   fi
 fi
 
-if [ ! "$SKIP_INSTALL" ]; then
+if [ true ]; then
     puts-step "Installing $PYTHON_VERSION"
 
     # Prepare destination directory.
